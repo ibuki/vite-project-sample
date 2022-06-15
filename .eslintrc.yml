@@ -11,4 +11,5 @@ parserOptions:
 plugins:
   - vue
   - '@typescript-eslint'
-rules: {}
+rules:
+  eqeqeq: ['error', 'smart']
