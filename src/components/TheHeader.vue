@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand navbar-light bg-light">
+  <nav class="navbar navbar-expand navbar-light bg-light mb-3">
     <div class="container">
       <a class="navbar-brand" href="#">EXAMPLE PAGE</a>
       <button
@@ -17,12 +17,12 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <RouterLink class="nav-link" :to="{ name: 'home' }">
-              Home
+              ホーム
             </RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" :to="{ name: 'page1' }">
-              Page1
+            <RouterLink class="nav-link" :to="{ name: 'listUsers' }">
+              ユーザー一覧
             </RouterLink>
           </li>
         </ul>
